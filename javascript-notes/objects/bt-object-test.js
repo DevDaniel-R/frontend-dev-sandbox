@@ -1,4 +1,3 @@
-// test messing with javascript object challenge by brad 
 const library = [
     {
         title: 'The Road Ahead',
@@ -54,4 +53,8 @@ const library = [
         };
     });
 
-console.log(library)
+// console.log(library)
+
+const { title } = firstBook;
+
+console.log(firstBook);
