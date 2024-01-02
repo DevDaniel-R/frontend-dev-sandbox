@@ -55,6 +55,12 @@ const library = [
 
 // console.log(library)
 
-const { title } = firstBook;
+const { title: firstBook } = library[0];
 
 console.log(firstBook);
+
+const str = JSON.stringify(library);
+
+console.log(str)
+
+// TEST PAST 
