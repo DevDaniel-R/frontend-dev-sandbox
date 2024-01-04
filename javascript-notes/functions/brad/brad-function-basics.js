@@ -26,3 +26,4 @@ add(5, 10);
 (function hello() {
     console.log('Hello');
 })();
+
