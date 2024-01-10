@@ -42,12 +42,35 @@ console.log(c);
 //todo Logical Assignment
 //* || = assigns the right side value only if the left is a falsy value.
 let a2 = false;
-//! note - 
+
 // if (!a2) {
 //     a2 = 10;
 // }
+
 a2 = a2 || 10;
 console.log(a2)
 
 //* && = assigns the right side value only if the left is a truthy value.
+let b2 = 20;
+
+// if (b2) {
+//     b2 = 20
+// }
+
+// b = b && 20;
+
+b &&= 20;
+console.log(b2)
+
 //* ?? = assigns the right side value only if the left is null or undefined.
+
+let c2 = null;
+
+// if (c2 === null || c2 === undefined) {
+//     c2 = 20;
+// }
+
+// c2 = c2 ?? 20;
+
+c2 ??= 20;
+console.log(c2)
