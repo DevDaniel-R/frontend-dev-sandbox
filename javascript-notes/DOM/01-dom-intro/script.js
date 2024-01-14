@@ -12,3 +12,10 @@ console.log(document.getElementById('main'));
 const main = document.getElementById('main');
 
 document.querySelector("#main h1").innerText = "Hello";
+
+//! turning an html collection into an array with JS Array method
+
+const forms = Array.from(document.forms);
+//! now we can loop through this collection
+forms.forEach((form) => console.log(form));
+
